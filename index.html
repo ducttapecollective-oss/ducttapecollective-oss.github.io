@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Bootstrap -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title>DuctTape Collective</title>
+
+  <!-- css is here -->
+  <link rel='icon' href='assets/favicon.ico' type='image/x-icon' />
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <!-- here is the hearder -->
+  <div class="nav" id="nav">
+    <!-- here is the logo -->
+    <div id="logo" style="position: fixed; display: inline-block;">
+      <span style="font-family: 'pixel'; font-size: 3rem; line-height: 1;">DUCT</span><br>
+      <span style="font-family: 'pixel'; font-size: 3rem; line-height: 1;">TAPE</span><br>
+      <span style="font-family: 'pixel'; font-size: 1.2rem; line-height: 1;">COLLECTIVE</span>
+    </div>
+
+    <!-- here is the short description -->
+    <div id="description">
+      DuctTape Collective is a research duo formed by <a target="_blank" href="https://www.naisyuanye.com/">Nai-Syuan Ye</a> and <a target="_blank" href="https://polinaslavova.com/index.html">Polina Slavova</a> based in Arnhem, the Netherlands. The
+      duo collaboration explores methods for generating machines, focusing on character building towards stimulation of people’s emotion.
+    </div>
+
+    <div class="vertical" id="divideline"></div>
+
+    <!-- here is the upcoming events -->
+    <div class="upcomingevent">
+      <!-- <div style="font-size:1.2rem;text-decoration:underline;display: block; padding-bottom:10px;">Upcoming Events:</div> -->
+      <br><br><br><br><br><br>
+      <div style="font-size:1.5rem;display: block; padding-bottom:5px;">2024</div>
+      <div style="font-size:1.5rem; width:50px; float:left; margin-right: 20px; text-align: center;">Jun<br>1</div>
+      <div style="font-size:1.5rem; width:325px; display: inline-block;"><a href="https://wiki.ljudmila.org/Naslovnica">PARAMETER: GENERATIVE ARTS FAIR</a>, part of Adela festival, Ljubljana, Slovenia</div><br><br>
+      <div style="font-size:1.5rem; width:50px; float:left; margin-right: 20px; text-align: center;">MAY<br>4</div>
+      <div style="font-size:1.5rem; width:325px; display: inline-block;"><a href="https://www.extratonal.org/"></a>Extratonal</a> Special #2: "Puzzling Printers Camp" at <a href="https://varia.zone/">Varia</a>, Rotterdam</div><br><br>
+      <!-- <div style="font-size:1.2rem;text-decoration:underline;display: block; padding-bottom:10px;">Past Events:</div> -->
+      <div style="font-size:1.5rem;display: block; padding-bottom:5px;">2023</div>
+      <div style="font-size:1.5rem; width:50px; float:left; margin-right: 20px; text-align: center;">OCT<br>21-29</div>
+      <div style="font-size:1.5rem; width:325px; display: inline-block;"> <i>(Not) Jammed</i> Exhibiting at DDW 2023 in Manifestation @Veem Eindhoven</div><br><br>
+      <div style="font-size:1.5rem; width:50px; float:left; margin-right: 20px; text-align: center;">June<br>30</div>
+      <div style="font-size:1.5rem; width:325px; display: inline-block;"> Poetry Night x Ducttape Collective at <a href="https://limestonebooks.info/">Limestone Books</a>, Maastricht</div> <br><br>
+      <div style="font-size:1.5rem; width:50px; float:left; margin-right: 20px; text-align: center;">April<br>7-9</div>
+      <div style="font-size:1.5rem; width:325px; display: inline-block;"> <i>(Not) Jammed</i> Exhibiting at Not Just A Fair hosted by <a href="https://linktr.ee/not.just.a.collective">NJAC</a> at Platform POST, Arnhem</div>
+    </div>
+    <img id="rotateImg" src="assets/arrowDown.png" onclick="replaceContent()">
+
+    <div class="about">
+      <button><a target="_blank" href="https://www.buymeacoffee.com/ducttapeco" style="text-decoration: none; color:white !important;">Buy us Coffee</a></button>
+    </div>
+    <hr class="hori">
+  </div>
+
+  <div class="navM" id="navM">
+    <!-- here is the logo -->
+    <div id="logoM" style="position: fixed; display: inline-block;">
+      <span style="font-family: 'pixel'; font-size: 3rem; line-height: 1;">DUCT</span><br>
+      <span style="font-family: 'pixel'; font-size: 3rem; line-height: 1;">TAPE</span><br>
+      <span style="font-family: 'pixel'; font-size: 1.2rem; line-height: 1;">COLLECTIVE</span>
+    </div>
+    <!-- here is the short description -->
+    <div id="descriptionM">
+      Email: ducttapecollective@gmail.com<br>Instagram: <a target="_blank" href="https://www.instagram.com/ducttapecollective/">@ducttapecollective</a>
+    </div>
+
+    <!-- here is the upcoming events -->
+    <div class="upcomingeventM">
+      <div style="font-size:1.2rem;text-decoration:underline;display: block; padding-bottom:10px;">Upcoming Events:</div>
+      <!-- <div style="font-size:1.5rem; width:50px; float:left; margin-right: 20px; text-align: center;">OCT<br>21-29</div> -->
+      <div style="font-size:1.5rem; width:325px; display: inline-block;"> To be announced</div>
+    </div>
+    <img id="rotateImgM" src="assets/arrowDown.png" onclick="replaceContentM()">
+
+    <div class="about">
+      <button><a target="_blank" href="https://www.buymeacoffee.com/ducttapeco" style="text-decoration: none; color:white !important;">Buy us Coffee</a></button>
+    </div>
+    <hr class="horiM">
+  </div>
+
+
+  <div class="content">
+    <!-- here start the list of keywords -->
+    <div class="keywords">
+      <b>Ducktape</b><br>
+      Installation<br>
+      <b>Polina</b><br>
+      Meme<br>
+      Stupid AI<br>
+      hello world<br>
+      Tools<br>
+      <small>Graphic design</small><br>
+      Maps<br>
+      <b>Obsolete Machine</b><br>
+      Studio Space<br>
+      Printers<br>
+      <small>Websites?</small><br>
+      Fake engineers<br>
+      Am I ADSD?<br>
+      <b>Cherry the human</b><br>
+      Post-it<br>
+      <small>Why is this website so messy</small><br>
+      Thoughts on wires<br>
+      <b>Input/ Output</b><br>
+      Humans<br>
+      <small>Tech-nically Humans</small><br>
+      <small>Cute Machines</small><br>
+    </div>
+
+    <!-- here is where the messy contents start -->
+    <div class="block" style="margin:10px; padding:20px; left:150px;top:119px; height:160px;width:200px;text-align: center;">
+      <span style="font-size:1rem; position:absolute; top:3px; right:3px;">It is actually an png.</span>
+      <img src="assets/ducttape.png" style="width: 100px; position:inline-block;margin:2px;"><br>
+      <span style="font-size:1.5rem; position:inline-block; bottom:4px;">DuctTape.png</span>
+    </div>
+
+    <!-- this is the quote slider -->
+    <div class="block" style="left: 245px;top:620px; height:215px;width:253px;z-index:30;">
+      <div class="slider">
+        <div class="slider-wrapper">
+          <h3>We get all more energetic after peeing - Polly <br><br>2024.08.20</h3>
+          <h3>121..13? 121 and 131. no 210 and 131. I'm Asain, I love numbers. - Cherry the Human <br><br>2024.08.20</h3>
+          <h3>Great, then you can keep sleeping - Polly <br><br>2024.02.26</h3>
+          <h3>It is fun to tiptoeing the concept - Cherry the Human <br><br>2024.02.18</h3>
+          <h3>i’ll try ;-; - Polly <br><br>2024.02.05</h3>
+          <h3>I will try to channel my multiple personalities to survive in the art field - Polly <br><br>2024.02.15</h3>
+          <h3>Cherry: What universe is this?<br> Polly: Glish<br><br>2024.01.15</h3>
+          <h3>Did you pick up your dream? When is the deadline? - Cherry the Human<br><br>2024.01.15</h3>
+          <h3>Maybe 'hotspot' is just multiple hotpots, but in a different universe, that plural is formed by adding '-s' right after the first syllable. - Cherry the Human<br><br>2024.01.12</h3>
+          <h3>I hate safari. Not the field, but the browser - Cherry the Human <br><br>2023.09.07</h3>
+          <h3>Hell wouldn't be on fire if there was so much rain - Polly <br><br>2023.08.25</h3>
+          <h3>But my budget is not 2012 Olympics - Polly <br><br>2023.08.22</h3>
+          <h3>I think I want a condo in Hawaii, so I also need a master for that? - Cherry the Human <br><br>2023.08.22</h3>
+          <h3>woaw. we are both tofu vacuum cleaner - Cherry the Human <br><br>2023.06.13</h3>
+          <h3>Thank you everyone talking to our technology - Cherry the Human <br><br>2023.06.05</h3>
+          <h3>You know. In Animal Crossing, poo poo fossil still cost moneu - Cherry the Human <br><br>2023.05.04</h3>
+          <h3>Mm... Ice Latte - Polly <br><br>2023.03.31</h3>
+          <h3>Do I exist to live? No and so on. The next question is, “don't the word exist also mean living? - Polly <br><br>2023.03.30</h3>
+          <h3>It is difficult - Cherry the Human <br><br>2023.03.29</h3>
+          <h3>I don't need sleep. Social construct forcing us to act all the same - Polly <br><br>2023.03.17</h3>
+        </div>
+        <a class="slider-prev"><img src="assets/arrowLeft.png"></a>
+        <a class="slider-next"><img src="assets/arrowRight.png"></a>
+      </div>
+    </div>
+
+    <div class="block" style="left: 240px; top:850px; height:100px; width:580px; z-index:30;overflow: scroll;">
+      <h2>Why is this website so chaotic?</h2>
+      <p>I'm not sure, but I think our work process can get messy at times. After all, the human brain is an incredibly complex system containing trillions of neurons, which can make things challenging. And let's not forget that graphic design itself
+        is a difficult art. Wouldn't you agree? It's safe to say that this website is held together with duct tape, so to speak. It will always be under construction, sometimes with a few typos or errors, much like our thoughts.</p>
+    </div>
+
+    <div class="train-container">
+      <div style="font-family: 'pixel'; font-size:1.1rem;">Weird images dump:</div>
+      <div class="train" onmouseover="startMoving()" onmouseout="stopMoving()">
+        <div class="carriage1" id="carriage1">
+          <img src="memes/meme1.png"><img src="memes/meme2.png"><img src="memes/meme3.png">
+        </div>
+        <div class="carriage2" id="carriage2">
+          <img src="memes/meme4.png"><img src="memes/meme5.png"><img src="memes/meme6.png"><img src="memes/meme7.png">
+        </div>
+        <div class="carriage3" id="carriage3">
+          <img src="memes/meme8.png"><img src="memes/meme9.png"><img src="memes/meme10.png">
+        </div>
+        <div class="carriage4" id="carriage4">
+          <img src="memes/meme11.png"><img src="memes/meme12.png"><img src="memes/meme13.png"><img src="memes/meme14.png"><img src="memes/meme15.png"><img src="memes/meme16.png"><img src="memes/meme17.png">
+        </div>
+      </div>
+    </div>
+
+    <!-- Mimesis is here -->
+    <div class="blockb" style="left: 365px; top:135px;">
+      <img class="projectimage" style="width:260px;" src="img/mimesis/mimesis0.jpg">
+      <h1>Mimesis</h1>
+      <p>Mimesis is a hybrid poetry art book engaging in conversations around creative authorship and the evolving role of technology within the creative processes.</p>
+
+      <img src="assets/makeitbigger.png" class="assets" onclick="zoom('mimesis');">
+    </div>
+
+    <div class="blockbb" id="mimesis">
+      <div class="project-image-pile">
+        <img src="img/mimesis/mimesis0.jpg">
+        <img src="img/mimesis/mimesis1.jpg">
+        <img src="img/mimesis/mimesis2.jpg">
+        <img src="img/mimesis/mimesis3.jpg">
+        <img src="img/mimesis/mimesis4.jpg">
+        <img src="img/mimesis/mimesis5.jpg">
+        <img src="img/mimesis/mimesis6.jpg">
+        <img src="img/mimesis/mimesis7.jpg">
+        <img src="img/mimesis/mimesis8.jpg">
+      </div>
+      <div class="project-description" style="overflow: scroll;height:100%;">
+        <h1>Mimesis: The Non-Standard Poetry Book</h1>
+        <p>Mimesis explores creative authorship and the shifting role of technology in artistic processes. The project originated from a poetry night held on 30 June 2023 at Limestone Books in Maastricht, where seven poets shared their work alongside
+          an “eighth poet”: Scott the Dot-Matrix Printer, operated by the DuctTape Collective, who generated live printed interpretations of each performed piece.
+          <br><br>
+          By fostering a deeper understanding of the intricate interplay between human ingenuity and technological innovation, the book invites reflection on where the border of authorship is in an increasingly technologically mediated world. Does
+          machine output constitute genuine creativity, or is it merely an algorithmic reiteration of human input? Does creativity inherently belong to the domain of human consciousness? And can a machine be considered a poet in its own right?
+          <br><br>The book is a collective work by <a target="_self" href="http://floriancramer.nl/">Florian Cramer</a>, <a target="_self" href="https://theoploeg.net/">theo ploeg</a>, <a target="_self" href="https://www.larsdenhertog.com/">LDH</a>, <a
+            target="_self" href="https://turtlehorn.com/pages/about-page">María Voth Velasco</a>, <a target="_self" href="https://www.instagram.com/jody_aikman/">Jody Aikman</a>, <a target="_self"
+            href="https://www.instagram.com/mssissippi/">Jean-Shelia Messi</a>,
+          <a target="_self" href="https://brittvanbaaren.nl/">Britt van Baaren</a>, <a target="_self" href="https://www.instagram.com/malu.ebn/">Malu Ebenau</a>, DuctTape Collective, <a target="_self"
+            href="https://vimeo.com/836655406?fl=pl&amp;fe=ti">Scott the Dot-Matrix Printer</a>, editor <a target="_self" href="https://www.merlefindhammer.com/">Merle Findhammer</a> and designer <a target="_black" href="https://www.dogagonullu.nl/">
+            Doğa Gönüllü</a> — with support from the <a target="_self" href="https://www.stimuleringsfonds.nl/en">Stimuleringfonds Creative Industries</a>.</span></p>
+        </p>
+      </div>
+      <img src="assets/makeitsmaller.png" class="assets" onclick="zoom('mimesis');">
+    </div>
+    <!-- Mimesis is here -->
+
+    <!-- Sloppy Disk is here -->
+    <div class="blockb" style="top:340px; left: 375px;">
+      <img class="projectimage" style="width:260px;" src="img/sloppydisk/sloppy.jpg">
+      <h1>Sloppy Disk</h1>
+      <p></p>
+      <img src="assets/makeitbigger.png" class="assets" onclick="zoom('sloppy');">
+    </div>
+
+    <div class="blockbb" id="sloppy">
+      <div class="project-image-pile">
+        <img src="img/sloppydisk/sloppy.jpg">
+        <img src="img/sloppydisk/forms.png">
+        <img src="img/sloppydisk/results1.jpeg">
+        <img src="img/sloppydisk/results2.jpeg">
+        <img src="img/sloppydisk/results3.jpeg">
+        <img src="img/sloppydisk/results4.jpeg">
+        <img src="img/sloppydisk/results5.jpeg">
+        <img src="img/sloppydisk/process1.jpeg">
+        <img src="img/sloppydisk/process2.jpeg">
+        <img src="img/sloppydisk/process3.jpeg">
+        <img src="img/sloppydisk/process4.jpeg">
+        <img src="img/sloppydisk/process5.jpeg">
+        <img src="img/sloppydisk/process6.jpeg">
+        <img src="img/sloppydisk/process7.jpeg">
+      </div>
+      <div class="project-description">
+        <h1>Sloppy Disk</h1>
+        <p>
+
+        </p>
+      </div>
+      <img src="assets/makeitsmaller.png" class="assets" onclick="zoom('sloppy');">
+    </div>
+    <!-- Sloppy Disk is here -->
+
+    <!-- Distortion is here -->
+    <div class="blockb" style="top:570px; left: 640px;">
+      <img class="projectimage" src="img/distortion/bak1.jpg">
+      <h1>Distortion</h1>
+      <p>A sonic installation & performance in collaboration with <a target="_self" href="https://www.instagram.com/heretical_objects/">Heretical Objects</a></p>
+      <img src="assets/makeitbigger.png" class="assets" onclick="zoom('distortion');">
+    </div>
+
+    <div class="blockbb" id="distortion">
+      <div class="project-image-pile">
+        <img src="img/distortion/bak1.jpg">
+        <img src="img/distortion/bak2.jpg">
+        <img src="img/distortion/bak3.jpg">
+        <img src="img/distortion/bak4.jpg">
+        <img src="img/distortion/bak5.jpg">
+        <img src="img/distortion/bak6.jpg">
+        <img src="img/distortion/bak7.jpg">
+        <img src="img/distortion/bak8.jpg">
+        <img src="img/distortion/bak9.jpg">
+        <img src="img/distortion/bak10.jpg">
+        <img src="img/distortion/bak11.jpg">
+      </div>
+      <div class="project-description">
+        <h1>Distortion</h1>
+        <p>Distortion is a sonic installation & performance by <a target="_self" href="https://www.instagram.com/heretical_objects/">Heretical Objects</a> and DuctTape Collective. It uses microphones, speakers, modifiers and delayes to project experiences of miscommunication in a fragmented society.
+           Miscommunication is an ephemeral moment that can linger indefinitely. A split second can echo for years when a message is delivered at the wrong frequency, when the receiver holds a position of authority
+           or a position of misrepresentation, or when the wave lengths of commonality diverge. The performance explores the discomfort of accommodating others and the way small disturbances can grow into deep aches.
+           What lies beyond our understandable hearing and how can we tune our own hearing to understand the other?
+          <br><br>
+          Presented at <a target="_self" href="https://bakonline.org/en/basecamp/agenda/the+new+look+of+anti+fascism/">Young Revolt X Piece of Resistance - the New Look of Anti-Facism</a> at BAK Basecamp, Utrecht (NL)
+          </p>
+      </div>
+      <img src="assets/makeitsmaller.png" class="assets" onclick="zoom('distortion');">
+    </div>
+    <!-- Distortion is here -->
+
+    <!-- Fraternal Echoes is here -->
+    <div class="blockb" style="left:1290px; top:135px;">
+      <img class="projectimage" src="img/fraternalechoes">
+      <h1>Fraternal Echoes</h1>
+      <p>This is Laicos 42. Laicos was always a shy and anxious bot, at school he preferred procrastinating on work and staying away from other bots because they required too much effort and uncertainty. Now Laicos is employed as a chat bot, but he
+        is not so chatty in his job.</p>
+      <img src="assets/makeitbigger.png" class="assets" onclick="zoom('echoes');">
+    </div>
+
+    <div class="blockbb" id="echoes">
+      <div class="project-image-pile">
+        <img src="img/img/fraternalechoes">
+        <iframe class="project-vid" src="https://player.vimeo.com/video/812732396?autoplay=0&color=ff9933&title=0&byline=0&portrait=0" width="450" height="510" frameborder="0" allow="fullscreen" allowfullscreen></iframe>
+      </div>
+      <div class="project-description">
+        <h1>Fraternal Echoes</h1>
+        <p></p>
+      </div>
+      <img src="assets/makeitsmaller.png" class="assets" onclick="zoom('echoes');">
+    </div>
+    <!-- Fraternal Echoes is here -->
+
+    <!-- Not Jammed is here -->
+    <div class="blockb" style="top:530px; left: 1210px;">
+      <img class="projectimage" style="width:260px;" src="img/notjammed/NJAF_DAY2_Camera2_79.JPG">
+      <h1>(Not) Jammed</h1>
+      <p>‘(Not) Jammed’ is an interactive installation that explores the process of instant printmaking, rather than the design and fixed final result. The work invites the visitor to engage with a dot matrix printer named Scott and in this way to
+        actively participate in the production process behind printmaking.</p>
+      <iframe class="projectimages" src="https://player.vimeo.com/video/846018186?h=49c1e2421e&autoplay=1&loop=1&title=0&byline=0&portrait=0&mute=1" style="float:none;width:200px;height:100px;" frameborder="0" muted></iframe>
+
+      <img src="assets/makeitbigger.png" class="assets" onclick="zoom('notjammed');">
+    </div>
+
+    <div class="blockbb" id="notjammed">
+      <div class="project-image-pile">
+        <img src="img/notjammed/(Not)Jammed.jpeg">
+        <img src="img/notjammed/1.jpg">
+        <img src="img/notjammed/2.jpg">
+        <img src="img/notjammed/NJAF_DAY2_Camera2_79.JPG">
+        <img src="img/notjammed/3.jpg">
+        <img src="img/notjammed/4.jpg">
+        <img src="img/notjammed/5.jpg">
+        <iframe class="project-vid" src="https://player.vimeo.com/video/836655406?h=45da856f4c" width="600" height="250" frameborder="0" allow="fullscreen" allowfullscreen></iframe>
+      </div>
+      <div class="project-description" style="overflow: scroll;height:100%;">
+        <h1>(Not) Jammed - Scott the dot matrix printer that listens to you</h1>
+        <p>What if machines could think or experience emotions? Observing anachronistic machines has prompted us to wonder whether we truly comprehend these human creations. They often act out, get stubborn and defensive, take their time, or start
+          wailing when you ask them to work. As a collective, our intention is to foster an appreciation for these machines and involve them in our design process and production by giving them the space to express their personality.<br><br>
+          <i>Project description:</i><br>
+          ‘(Not) Jammed’ is an interactive installation through which we try to break free from the notion of carefulness around technology and give an opportunity to ourselves and the viewers to explore what can be done with a printer outside the
+          constraints of its intended use. The work invites the visitor to engage with a dot matrix printer named Scott and in this way to actively participate in the production process behind printmaking. The installation facilitates a dialogue
+          between people and a mischievous machine, in which the viewer is granted the role of a content provider, while the printer intervenes in the process of printing and acts as the layout designer.<br><br>Visitors can enter a “Scott’s
+          Listening” zone, where they can talk directly to him, share a secret, read a poem or sing a song, where Scott will detect the speech and print out his own interpretation of it. Similar to how people sometimes misinterpret others’ words or
+          drift off during a conversation, Scott is not entirely precise in translating human input, mishearing sentences and twisting their original meaning. Further along he selects the font, size, leading and composition of the printed speech
+          based on the pitch of his own distinctive printing sounds.<br><br>The work is produced using Google API speech to text recognition and sending the text file for print at a certain time period. For changing the layout we use a servo motor
+          that manually presses the font and size menu of the dot matrix printer, while the paper is manually rolled by a stepper motor. Both motors use the same principle of operation, rotating based on the sound pitch of the printing process.
+        </p>
+      </div>
+      <img src="assets/makeitsmaller.png" class="assets" onclick="zoom('notjammed');">
+    </div>
+    <!-- Not Jammed is here -->
+
+    <!-- Not Jammed publication is here -->
+    <div class="blockb" style="left: 1820px; top:135px;">
+      <img class="projectimage" style="width:260px;" src="img/njpublication/njpb1.jpg">
+      <h1>(Not) Jammed publication</h1>
+      <p>'Not (Jammed)' is a handmade publication based on the interactive installation with the same name, shown during the 3-day exhibition 'Not Just A Fair' at Platform POST Arnhem.</p>
+      <img src="assets/makeitbigger.png" class="assets" onclick="zoom('njp');">
+    </div>
+
+    <div class="blockbb" id="njp">
+      <div class="project-image-pile">
+        <img src="img/njpublication/njpb1.jpg">
+        <img src="img/njpublication/njpb2.jpg">
+        <img src="img/njpublication/njpb3.jpg">
+        <img src="img/njpublication/njpb4.jpg">
+        <img src="img/njpublication/njpb5.jpg">
+      </div>
+      <div class="project-description">
+        <h1>(Not) Jammed publication</h1>
+        <p>
+          'Not (Jammed)' is a handmade publication based on the interactive installation with the same name, shown during the 3-day exhibition 'Not Just A Fair' at Platform POST Arnhem. It captures the dialogue between people and a mischievous
+          printer named Scott, granting the viewer the role of the content provider and designer while also allowing the machine to intervene. The content is a real-time documentation of the passing-by visitors and their interactions with Scott, his
+          own interpretation of the conversation he unintentionally overheard, intertwined with a visualization of his printing sounds. <br><br>The book was designed by our dear friend <a target="_blank" href="https://www.dogagonullu.nl/">Doğa
+            Gönüllü.</a> <br><br>Printed in a limited edition of 40 copies<br> 74 p, b&w, 15x26 cm, Softcover, Swiss binding with staple, Japanese fold, English, 2023<br>
+        </p>
+      </div>
+      <img src="assets/makeitsmaller.png" class="assets" onclick="zoom('njp');">
+    </div>
+    <!-- Not Jammed publication is here -->
+
+    <!-- christopher is here -->
+    <!-- <div class="blockb" style="left:1290px; top:135px;">
+      <img class="projectimage" src="img/christopher/chris3.jpg">
+      <h1>Christopher</h1>
+      <p>Meet Christopher. Christopher is a polite watering can that greets your plants when you water them. <br> Say ‘Hi’ to Christopher. Christopher says ‘Hi’ back.</p>
+      <iframe class="projectimages" src="https://player.vimeo.com/video/812046875?autoplay=1&color=ff9933&title=0&byline=0&portrait=0&muted=1&loop=1" width="200" height="auto" frameborder="0" muted></iframe>
+      <img class="projectimages" src="img/christopher/chris2.jpg">
+      <p>#DuctTape <br>#MachineManner <br>#Christopher <br>#MachinesCanBeFriendly</p>
+      <img src="assets/makeitbigger.png" class="assets" onclick="zoom('christopher');">
+    </div>
+
+    <div class="blockbb" id="christopher">
+      <div class="project-image-pile">
+        <img src="img/christopher/chris3.jpg">
+        <img src="img/christopher/chris2.jpg">
+        <iframe class="project-vid" src="https://player.vimeo.com/video/812046875?autoplay=1&color=ff9933&title=0&byline=0&portrait=0" width="450" height="800" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </div>
+      <div class="project-description">
+        <h1>Christopher</h1>
+        <p>Meet Christopher. Christopher is a polite watering can that greets your plants when you water them.
+          Say ‘Hi’ to Christopher. Christopher says ‘Hi’ back.<br><br>
+          <i>Project description:</i><br>
+          Developments in robotics, aside from being welcomed with excitement by many, are often conceived with mistrust and somewhat of a fear from the general public. They are a perfected reiteration of us humans, able to replace us effortlessly in
+          any task we have learned for years to become skilled at. In that sense they are the clear depiction of human advancement while setting a treat for humanity itself.
+          However, we see past those preconceptions and think robots can be friendly, caring and polite. We want to introduce robots who are here to co-exist with us humans in a peaceful manner. </p>
+        <p>#DuctTape <br>#MachineManner <br>#Christopher <br>#MachinesCanBeFriendly</p>
+      </div>
+      <img src="assets/makeitsmaller.png" class="assets" onclick="zoom('christopher');">
+    </div> -->
+    <!-- christopher is here -->
+
+    <!-- Laicos42 is here -->
+    <!-- <div class="blockb" style="top:530px; left: 1210px;">
+      <img class="projectimage" src="img/Laicos42/laicos1.png">
+      <h1>Laicos 42</h1>
+      <p>This is Laicos 42. Laicos was always a shy and anxious bot, at school he preferred procrastinating on work and staying away from other bots because they required too much effort and uncertainty. Now Laicos is employed as a chat bot, but he
+        is not so chatty in his job.</p>
+      <img src="assets/makeitbigger.png" class="assets" onclick="zoom('laicos42');">
+    </div>
+
+    <div class="blockbb" id="laicos42">
+      <div class="project-image-pile">
+        <img src="img/Laicos42/laicos1.png">
+        <img src="img/Laicos42/laicos2.png">
+        <img src="img/Laicos42/laicos3.png">
+        <iframe class="project-vid" src="https://player.vimeo.com/video/812732396?autoplay=0&color=ff9933&title=0&byline=0&portrait=0" width="450" height="510" frameborder="0" allow="fullscreen" allowfullscreen></iframe>
+      </div>
+      <div class="project-description">
+        <h1>Laicos 42 (The Anti-Social Chat bot that is not so ready to help you out)</h1>
+        <p>This is <a target="_blank" herf="www.naisyuanye.com/Laicos42">Laicos 42</a>. Laicos was always a shy and anxious bot, at school he preferred procrastinating on work and staying away from other bots because they required too much effort and
+          uncertainty. Now Laicos is employed as a chat bot, but he is not so chatty in his job.<br><br>
+          <i>Project description:</i><br>
+          Humans experience feelings of distraction, exhaustion, boredom and lack of motivation daily. We even created machines, algorithms and mechanical parts that cannot get tired so that they help us with our human responsibilities. We, as
+          designers however, want to give space to machines to experience those human emotions, be tired, anxious, unmotivated, unproductive, and just say ‘No.’ to humans.<br><br>
+          Laicos ’s responses are based on an <a target="_blank" href="https://pad.riseup.net/p/Laicos42">open database</a>, available for participation from anybody. We give you the opportunity to project your anti-social manifestation onto the
+          Laicos. <i>Help us figure out more sentences to reject more people with.</i></p>
+        <p>#NewYearNoFriends<br> #No<br> #LeaveBotAlone</p>
+      </div>
+      <img src="assets/makeitsmaller.png" class="assets" onclick="zoom('laicos42');">
+    </div> -->
+    <!-- Laicos42 is here -->
+
+
+    <div class="studiospace">
+      <div class="wrap">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4914.331524151826!2d5.9186407!3d51.9856323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c7a44c3d54c081%3A0x99bac0f10fc352b7!2sArnhem%20Mode%20Incubator!5e0!3m2!1sen!2snl!4v1770740901730!5m2!1sen!2snl"
+          style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <img src="img/studiolife/studio2.jpg">
+        <img src="img/studiolife/studio1.JPG">
+        <img src="img/studiolife/studio3.JPG">
+      </div>
+      <div class="wrap" style="width:200px">
+        <h2>Studio Space</h2>
+        <p>We have a studio space currently located at Arnhem Mode Incubator, Sonsbeeksingel 147, 6822 BL Arnhem. We are not always there but you can come have tea and talk about random topics if you are kind and curious about us :)</p>
+        <img style="width:180px;margin:2px; float:right;" src="thisishowwelook.png">
+      </div>
+      <img src="assets/arrowDownshort.png" style="position:absolute; left:60px; width: 22px;bottom: 10px; display:inline-block;z-index:100;">
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
